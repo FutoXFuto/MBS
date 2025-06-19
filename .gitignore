@@ -1,0 +1,41 @@
+# node_modules（依存ライブラリ）
+node_modules/
+
+# Vite ビルド成果物
+dist/
+
+# ログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# 環境変数や秘密情報
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# VSCodeなどのエディタ設定（プロジェクトに不要）
+.vscode/
+.idea/
+
+# Macのメタファイル
+*.swp
+*.swo
+
+# eslintキャッシュ（自動生成される）
+.eslintcache
+
+# テストのカバレッジ出力
+coverage/
+
+# サーバー側の一時ファイル
+*.log
+
+# ビルド済みJSファイルなど（もし含まれるなら）
+*.out.js
